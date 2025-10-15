@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gomolemo Olebile Mogapi | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { line-height: 1.6; background: #f8f9fa; color: #333; }
+    header { background: #222; color: #fff; padding: 20px 0; text-align: center; }
+    header h1 { font-size: 2.2rem; margin-bottom: 10px; }
+    header p { font-size: 1rem; color: #bbb; }
+    nav { margin-top: 15px; }
+    nav a { margin: 0 15px; text-decoration: none; color: #fff; font-weight: 500; }
+    nav a:hover { color: #00adb5; }
+    section { padding: 50px 20px; max-width: 1000px; margin: auto; }
+    h2 { font-size: 1.8rem; margin-bottom: 20px; color: #222; text-align: center; }
+    p { margin-bottom: 15px; font-size: 1rem; color: #444; }
+    .btn { display: inline-block; padding: 10px 20px; background: #00adb5; color: #fff; border-radius: 5px; text-decoration: none; transition: 0.3s; }
+    .btn:hover { background: #007b83; }
+    .skills, .experience { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .card { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    .contact-info { text-align: center; margin-bottom: 20px; }
+    form { max-width: 600px; margin: auto; display: grid; gap: 15px; }
+    input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 1rem; width: 100%; }
+    button { padding: 10px; background: #00adb5; border: none; color: #fff; font-size: 1rem; border-radius: 5px; cursor: pointer; }
+    button:hover { background: #007b83; }
+    footer { text-align: center; background: #222; color: #bbb; padding: 20px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gomolemo Olebile Mogapi</h1>
+    <p>| Welcome to My Portfolio | </p>
+	<p>Showcasing hard work, Smartness and Educational Achievements.</p>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+     
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>My name is Gomolemo Olebile Mogapi, and I’m an Information Technology graduate with a specialization in Software Engineering. I earned my Diploma from Richfield Institute of Technology in 2023, where I also completed hands-on training through Work Integrated Learning. I’m currently gaining practical industry experience as an IT Technical Support Intern at Retshepeng Holdings, providing reliable and effective IT solutions.</p>
+    <p>I’m a driven, goal-oriented individual with a quiet yet welcoming demeanor, known for working well independently and within a team. I thrive in fast-paced environments and am always eager to learn, adapt, and contribute meaningfully to any project.</p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="experience">
+      <div class="card">
+        <h3>IT Technical Support Internship</h3>
+        <p><strong>Retshepeng Holdings</strong></p>
+        <p><em>Nov 2024 - Jan 2026 | Centurion, Doringkloof</em></p>
+        <ul>
+          <li>Provided first-line hardware and software support for desktops, laptops, and printers.</li>
+          <li>Installed, configured, and maintained operating systems and software applications.</li>
+          <li>Assisted with troubleshooting network issues and routine network checks.</li>
+          <li>Delivered user support on Microsoft Office tools and email configurations.</li>
+          <li>Performed regular maintenance and virus scans to ensure system integrity.</li>
+          <li>Supported inventory management of IT assets and licenses.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card"><h3>Technical Skills</h3></div>
+      <div class="card"><h3>Problem-Solving</h3></div>
+      <div class="card"><h3>Time Management</h3></div>
+      <div class="card"><h3>Troubleshooting & Diagnostics</h3></div>
+      <div class="card"><h3>Communication with End Users</h3></div>
+    </div>
+  </section>
+<!-- Add this section after Skills or wherever you want -->
+<section id="portfolio">
+  <h2>My Documents & Work</h2>
+
+  <div class="experience" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+    <!-- Documents -->
+    <div class="card">
+      <h3>Documents</h3>
+      <p>View my professional documents.</p>
+      <ul>
+        <li><a class="btn" href="ResumeOfGO.pdf" download>Resume Download</a></li><br>
+        <li><a class="btn" href="GO Certificate Diploma In IT.pdf" download>Download Qualification</a></li><br>
+		<li class ="Dropdown">
+		<a class="btn dropbtn" href="#">Download Other ▾</a>
+  <ul class="dropdown-content">
+    <li><a href="ID GO Mogapi.pdf" download>ID</a></li>
+    <li><a href="AcademicTranscript.pdf" download>Academic Transcript</a></li>
+ 
+  </ul>
+</li>
+      </ul>
+    </div>
+
+    <!-- Work Videos -->
+    <div class="card">
+      <h3>My Work Videos</h3>
+      <p>Watch some of my project demonstrations and work samples.</p>
+    </div>
+  </div>
+</section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+      <p><strong>Phone:</strong> 074 484 8215</p>
+      <p><strong>Email:</strong> momomogapi1@gmail.com</p>
+    </div>
+    <form name="contact" method="POST" data-netlify="true">
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <textarea name="message" placeholder="Your Message" required></textarea>
+  <button class="btn" type="submit">Send</button>
+</form>
+
+  </section>
+
+  <footer>
+    <p>© 2025 Gomolemo Olebile Mogapi. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
+
